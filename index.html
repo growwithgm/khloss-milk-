@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="ur-Latn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Khaloos Logo Brief</title>
+<meta name="description" content="Khaloos Milk ke logo design ke liye chand sawal. Fill karke WhatsApp par bhej dein.">
+<meta name="theme-color" content="#F7F2E8">
+<meta property="og:title" content="Khaloos Milk — Logo Brief">
+<meta property="og:description" content="Logo design shuru karne se pehle chand sawal. Fill karke WhatsApp par bhej dein.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F7F2E8;
+    --surface: #FFFDF8;
+    --ink: #1D2722;
+    --muted: #5E6A63;
+    --line: #E4DCCB;
+    --accent: #1F5A44;
+    --accent-ink: #FFFFFF;
+    --accent-soft: #E4EFE8;
+    --gold: #B9832A;
+    --gold-soft: #F6EBD6;
+    --wa: #128C4A;
+    --wa-hover: #0F7A40;
+    --shadow: 0 1px 2px rgba(29,39,34,.05), 0 8px 24px rgba(29,39,34,.06);
+    --radius: 18px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121815;
+      --surface: #1A221E;
+      --ink: #ECF0EB;
+      --muted: #A2ADA6;
+      --line: #2C3732;
+      --accent: #74C49F;
+      --accent-ink: #0E1A14;
+      --accent-soft: #1F3A2F;
+      --gold: #E0B25E;
+      --gold-soft: #2E2718;
+      --wa: #22A35C;
+      --wa-hover: #1C8E50;
+      --shadow: none;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 660px; margin: 0 auto; padding: 0 16px 140px; }
+
+  /* Progress */
+  .progress {
+    position: sticky; top: 0; z-index: 10;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .progress-inner {
+    max-width: 660px; margin: 0 auto; padding: 10px 16px;
+    display: flex; align-items: center; gap: 12px;
+    font-size: 13px; color: var(--muted); font-weight: 600;
+  }
+  .bar { flex: 1; height: 6px; background: var(--line); border-radius: 99px; overflow: hidden; }
+  .bar > span { display: block; height: 100%; width: 0; background: var(--accent); border-radius: 99px; transition: width .3s ease; }
+
+  /* Hero */
+  header.hero { padding: 36px 4px 8px; }
+  .mark {
+    width: 52px; height: 52px; border-radius: 16px;
+    background: var(--accent-soft); display: grid; place-items: center;
+    margin-bottom: 18px;
+  }
+  .kicker {
+    display: inline-block; font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
+    font-weight: 700; color: var(--gold); margin-bottom: 6px;
+  }
+  h1 {
+    font-family: "Fraunces", Georgia, serif; font-weight: 600;
+    font-size: clamp(30px, 8vw, 42px); line-height: 1.1; margin: 0 0 14px; letter-spacing: -.01em;
+  }
+  .lead { color: var(--muted); margin: 0 0 18px; }
+  .howto {
+    background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 16px 18px; display: grid; gap: 10px; box-shadow: var(--shadow);
+  }
+  .howto div { display: flex; gap: 12px; align-items: flex-start; font-size: 15px; }
+  .howto b.n {
+    flex: none; width: 24px; height: 24px; border-radius: 50%;
+    background: var(--accent-soft); color: var(--accent); font-size: 13px;
+    display: grid; place-items: center; margin-top: 1px;
+  }
+
+  /* Fields */
+  .field-intro { margin-top: 22px; }
+  section.block { margin-top: 34px; }
+  .block-head { display: flex; align-items: baseline; gap: 10px; margin: 0 4px 12px; }
+  .block-head .no { font-family: "Fraunces", serif; color: var(--gold); font-size: 15px; font-weight: 600; }
+  .block-head h2 { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: 22px; margin: 0; }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 18px; margin-bottom: 12px; box-shadow: var(--shadow);
+    transition: border-color .2s ease;
+  }
+  .card.done { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
+  .q-label { display: flex; gap: 10px; font-weight: 700; font-size: 16px; margin-bottom: 4px; }
+  .q-label .qn { flex: none; color: var(--accent); min-width: 22px; }
+  .q-help {
+    font-size: 14px; color: var(--muted); margin: 6px 0 2px;
+    padding-left: 32px;
+  }
+  .q-help.note {
+    color: var(--ink); background: var(--gold-soft); border-radius: 12px;
+    padding: 10px 12px; margin: 10px 0 2px;
+  }
+  .q-body { margin-top: 12px; }
+
+  input[type=text], textarea {
+    width: 100%; font: inherit; color: var(--ink);
+    background: var(--bg); border: 1.5px solid var(--line); border-radius: 12px;
+    padding: 12px 14px; outline: none; transition: border-color .15s, box-shadow .15s;
+  }
+  textarea { min-height: 88px; resize: vertical; }
+  input[type=text]:focus, textarea:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 16%, transparent);
+  }
+  input::placeholder, textarea::placeholder { color: color-mix(in srgb, var(--muted) 75%, transparent); }
+  .other { margin-top: 10px; }
+
+  /* Choices */
+  .choices { display: grid; gap: 8px; }
+  .choices.inline { display: flex; flex-wrap: wrap; gap: 8px; }
+  .choice { position: relative; display: block; cursor: pointer; }
+  .choice input { position: absolute; opacity: 0; pointer-events: none; }
+  .choice .box {
+    display: flex; align-items: center; gap: 12px;
+    border: 1.5px solid var(--line); border-radius: 12px; padding: 12px 14px;
+    background: var(--bg); transition: border-color .15s, background .15s;
+    min-height: 48px;
+  }
+  .choices.inline .choice .box { padding: 10px 14px; border-radius: 99px; min-height: 44px; }
+  .tick {
+    flex: none; width: 20px; height: 20px; border: 2px solid color-mix(in srgb, var(--muted) 60%, transparent);
+    border-radius: 50%; display: grid; place-items: center; transition: all .15s;
+  }
+  .choice input[type=checkbox] + .box .tick { border-radius: 6px; }
+  .tick svg { width: 12px; height: 12px; opacity: 0; transform: scale(.6); transition: all .15s; }
+  .choice input:checked + .box { border-color: var(--accent); background: var(--accent-soft); }
+  .choice input:checked + .box .tick { background: var(--accent); border-color: var(--accent); }
+  .choice input:checked + .box .tick svg { opacity: 1; transform: scale(1); }
+  .choice input:focus-visible + .box { box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 20%, transparent); }
+  .opt-text { display: grid; gap: 1px; }
+  .opt-text small { color: var(--muted); font-size: 13px; line-height: 1.4; }
+
+  .swatch { flex: none; width: 18px; height: 18px; border-radius: 50%; border: 1px solid rgba(0,0,0,.15); }
+
+  /* Visual options (logo shapes) */
+  .choices.visual { grid-template-columns: repeat(3, 1fr); }
+  .choices.visual .choice .box { flex-direction: column; text-align: center; gap: 8px; padding: 14px 8px; }
+  .choices.visual .tick { display: none; }
+  .choices.visual svg.illo { width: 100%; max-width: 110px; height: auto; color: var(--ink); }
+  .choices.visual .opt-text { font-size: 14px; font-weight: 600; }
+  @media (max-width: 420px) {
+    .choices.visual { grid-template-columns: 1fr; }
+    .choices.visual .choice .box { flex-direction: row; text-align: left; gap: 14px; }
+    .choices.visual svg.illo { max-width: 92px; }
+  }
+
+  /* Finish */
+  .finish {
+    margin-top: 36px; border-radius: var(--radius); padding: 22px 20px;
+    background: var(--accent); color: var(--accent-ink);
+  }
+  .finish h2 { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: 22px; margin: 0 0 8px; }
+  .finish p { margin: 0 0 10px; opacity: .92; }
+  .finish p:last-child { margin-bottom: 0; }
+
+  .actions {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid var(--line);
+    padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+  }
+  .actions-inner { max-width: 660px; margin: 0 auto; display: flex; gap: 10px; }
+  .btn {
+    font: inherit; font-weight: 700; border: 0; cursor: pointer; border-radius: 14px;
+    min-height: 52px; padding: 0 18px; display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+    transition: background .15s, transform .1s;
+  }
+  .btn:active { transform: scale(.98); }
+  .btn-wa { flex: 1; background: var(--wa); color: #fff; font-size: 16px; }
+  .btn-wa:hover { background: var(--wa-hover); }
+  .btn-ghost { background: var(--surface); color: var(--ink); border: 1.5px solid var(--line); font-size: 14px; }
+  .btn svg { width: 22px; height: 22px; flex: none; }
+
+  .toast {
+    position: fixed; left: 50%; bottom: 96px; transform: translateX(-50%) translateY(10px);
+    background: var(--ink); color: var(--bg); font-size: 14px; font-weight: 600;
+    padding: 10px 16px; border-radius: 99px; opacity: 0; pointer-events: none;
+    transition: all .25s ease; z-index: 30; max-width: calc(100% - 32px); text-align: center;
+  }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+  footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 28px; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+
+<div class="progress" aria-hidden="true">
+  <div class="progress-inner">
+    <div class="bar"><span id="barFill"></span></div>
+    <span id="progText">0 / 0</span>
+  </div>
+</div>
+
+<main class="wrap">
+  <header class="hero">
+    <div class="mark" aria-hidden="true">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent)">
+        <path d="M12 2.8c3.6 4.6 6.2 8.3 6.2 11.6a6.2 6.2 0 0 1-12.4 0C5.8 11.1 8.4 7.4 12 2.8Z"/>
+        <path d="M9.2 15.2a3 3 0 0 0 2.6 2.4"/>
+      </svg>
+    </div>
+    <span class="kicker">Logo Brief</span>
+    <h1>Khaloos Milk</h1>
+    <p class="lead">Assalam o Alaikum! Logo design shuru karne se pehle ye chand sawal hain. Inke jawab se design bilkul aapke brand ke mutabiq banega aur baar baar tabdeeli ki zaroorat kam paregi.</p>
+    <div class="howto">
+      <div><b class="n">1</b><span>Har sawal ka jawab chunein ya likhein. Kayi sawalon mein ek se zyada jawab chun sakte hain.</span></div>
+      <div><b class="n">2</b><span>Jo sawal samajh na aaye ya jiska jawab na pata ho, use chhor dein.</span></div>
+      <div><b class="n">3</b><span>Aakhir mein hara <b>"WhatsApp par bhejein"</b> button dabayein. Aapke saare jawab khud message mein likhe aa jayenge.</span></div>
+    </div>
+  </header>
+
+  <div class="card field-intro">
+    <label class="q-label" for="clientName"><span>Aapka naam</span></label>
+    <div class="q-body"><input type="text" id="clientName" placeholder="Apna naam likhein" autocomplete="name"></div>
+  </div>
+
+  <form id="brief" onsubmit="return false"></form>
+
+  <div class="finish">
+    <h2>Bas, ho gaya!</h2>
+    <p>Form fill karne ke baad neeche wala hara <b>"WhatsApp par bhejein"</b> button dabayein. WhatsApp khulega aur aapke saare jawab message mein likhe hue honge. Wahan sirf <b>Send</b> dabayein.</p>
+    <p>Jo logos aapko pasand hain, unke screenshots usi WhatsApp chat mein alag se bhej dein.</p>
+  </div>
+
+  <footer>Tayyar karda: GROW NEST · <a href="https://grownest.pro" target="_blank" rel="noopener">grownest.pro</a></footer>
+</main>
+
+<div class="actions">
+  <div class="actions-inner">
+    <button class="btn btn-ghost" id="copyBtn" type="button" aria-label="Jawab copy karein">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+      Copy
+    </button>
+    <button class="btn btn-wa" id="waBtn" type="button">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.2h.01c5.46 0 9.91-4.45 9.91-9.91A9.86 9.86 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.29Z"/></svg>
+      WhatsApp par bhejein
+    </button>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+/* ===== Setting: jawab is WhatsApp number par aayenge (country code ke saath, bina + ke) ===== */
+const WA_NUMBER = "";
+
+const TICK = '<svg viewBox="0 0 12 12" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3 5 8.7l4.5-5"/></svg>';
+
+const ILLO = {
+  word: '<svg class="illo" viewBox="0 0 120 60" fill="none"><rect x="1" y="1" width="118" height="58" rx="10" stroke="currentColor" stroke-opacity=".15"/><text x="60" y="38" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="20" font-weight="600" fill="currentColor">Khaloos</text></svg>',
+  combo: '<svg class="illo" viewBox="0 0 120 60" fill="none"><rect x="1" y="1" width="118" height="58" rx="10" stroke="currentColor" stroke-opacity=".15"/><path d="M26 15c5 6.4 8.6 11.5 8.6 16a8.6 8.6 0 0 1-17.2 0c0-4.5 3.6-9.6 8.6-16Z" fill="currentColor" fill-opacity=".85"/><text x="76" y="37" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="17" font-weight="600" fill="currentColor">Khaloos</text></svg>',
+  badge: '<svg class="illo" viewBox="0 0 120 60" fill="none"><rect x="1" y="1" width="118" height="58" rx="10" stroke="currentColor" stroke-opacity=".15"/><circle cx="60" cy="30" r="24" stroke="currentColor" stroke-width="2"/><circle cx="60" cy="30" r="19.5" stroke="currentColor" stroke-opacity=".5"/><path d="M60 15.5c2.8 3.5 4.8 6.4 4.8 8.9a4.8 4.8 0 0 1-9.6 0c0-2.5 2-5.4 4.8-8.9Z" fill="currentColor"/><text x="60" y="40" text-anchor="middle" font-family="Manrope, sans-serif" font-size="6" font-weight="700" letter-spacing=".6" fill="currentColor">KHALOOS</text></svg>'
+};
+
+const COLORS = [
+  ["Safaid", "#FFFFFF"], ["Krem", "#F3E6C8"], ["Neela", "#2F6FD0"], ["Aasmani", "#8EC8EE"],
+  ["Hara", "#2E8B57"], ["Gehra hara", "#1F4D3A"], ["Peela / sunehra", "#E2B33B"], ["Narangi", "#E97B2C"],
+  ["Laal", "#C83A32"], ["Bhoora", "#8A5A3B"], ["Kala", "#1E1E1E"]
+];
+
+const SECTIONS = [
+  { title: "Kaam ka scope", qs: [
+    { id: "scope", label: "Logo kis ke liye chahiye?", type: "radio",
+      options: ["Poore Khaloos Group ke liye", "Sirf Khaloos Milk ke liye", "Dono ke liye"] },
+    { id: "businesses", label: "Group mein abhi kaunsa business chal raha hai, aur aage kaun kaun se aayenge? Andaazan kab tak?", type: "textarea",
+      placeholder: "Jaise: abhi sirf doodh chal raha hai, bakery agle saal..." },
+    { id: "system", label: "Logo ka nizaam kaisa ho?", type: "radio",
+      options: [
+        { t: "Ek hi Khaloos logo", d: "Har business ka naam saath likha ho: Khaloos Milk, Khaloos Bakery" },
+        { t: "Har business ka bilkul alag logo", d: "" },
+        { t: "Abhi faisla nahi kiya", d: "" }
+      ] },
+    { id: "kit", label: "Sirf logo chahiye, ya poori brand kit?", type: "radio",
+      options: ["Sirf logo", "Poori brand kit"],
+      help: "Brand kit mein logo ke versions, brand ke rang aur fonts, visiting card, letterhead, aur social media ki profile picture aur cover shamil hote hain." }
+  ]},
+  { title: "Naam aur zabaan", qs: [
+    { id: "spelling", label: "English mein naam ki spelling kya hogi?", type: "radio", inline: true,
+      options: ["Khaloos", "Khuloos", "Khalos"], other: "Koi aur spelling ho to yahan likhein" },
+    { id: "urdu", label: "Kya Urdu version bhi chahiye?", type: "radio",
+      options: ["Haan, Urdu version bhi chahiye", "Nahi, sirf English kaafi hai"],
+      note: "Main logo English mein hoga. Urdu version alag se design karna padta hai, isliye uski cost thodi barh jayegi." },
+    { id: "tagline", label: "Tagline \"Khalis hai to hai\" kahan chahiye?", type: "radio",
+      options: ["Logo ke saath har jagah", "Sirf packing aur ads par", "Abhi nahi chahiye"],
+      other: "Tagline mein koi tabdeeli ho to likhein" }
+  ]},
+  { title: "Business ki pehchaan", qs: [
+    { id: "area", label: "Aap kis shehar ya ilaqe mein kaam kar rahe hain, aur aage kahan tak le jana chahte hain?", type: "textarea",
+      placeholder: "Jaise: abhi Sargodha shehar, aage poora Punjab..." },
+    { id: "source", label: "Doodh kahan se aata hai?", type: "check",
+      options: ["Apna farm", "Gaon ke gwalon se supply"], other: "Kahin aur se ho to likhein" },
+    { id: "animal", label: "Doodh kis ka hai?", type: "radio", inline: true,
+      options: ["Gaaye", "Bhains", "Dono"] },
+    { id: "customers", label: "Aapke customer kaun hain?", type: "check", inline: true,
+      options: ["Ghar wale", "Dukaanein", "Hotels / bakeries"], help: "Ek se zyada chun sakte hain." },
+    { id: "pack", label: "Doodh kis shakal mein bikega?", type: "check", inline: true,
+      options: ["Khula", "Pouch", "Bottle", "Tetra pack"] },
+    { id: "quality", label: "Aapke doodh ki sabse bari khoobi kya hai jo log logo dekh kar mehsoos karein?", type: "check", inline: true,
+      options: ["Khalis, bina milawat", "Taaza", "Farm se seedha", "Sehat", "Bharosa", "Gaon ka asli zaiqa"],
+      help: "Jo sab se zyada sach ho, wo chunein.", other: "Koi aur khoobi" },
+    { id: "tier", label: "Aapka brand kis darje ka ho?", type: "radio",
+      options: [
+        { t: "Aam aadmi ka", d: "Har ghar ki pohanch mein" },
+        { t: "Mid-range", d: "Achha maiyar, munasib qeemat" },
+        { t: "Premium", d: "Behtareen maiyar, mehnga" }
+      ] }
+  ]},
+  { title: "Design ka andaaz", qs: [
+    { id: "style", label: "Logo ka andaaz kaisa ho?", type: "radio",
+      options: [
+        { t: "Desi / traditional", d: "Gaon, mitti aur riwayat ka ehsaas" },
+        { t: "Saaf aur modern", d: "Seedha, kam cheezein, aaj ka andaaz" },
+        { t: "Premium aur classy", d: "Nafees aur mehnga dikhe" },
+        { t: "Friendly aur khushnuma", d: "Pyara, ghar walon aur bachon ko achha lage" }
+      ] },
+    { id: "shape", label: "Logo ki shakal kaisi ho?", type: "radio", visual: true,
+      options: [
+        { t: "Sirf naam", svg: ILLO.word },
+        { t: "Naam ke saath nishaan", svg: ILLO.combo },
+        { t: "Gol mohar / badge", svg: ILLO.badge }
+      ],
+      help: "Ye sirf misaal hai, asal design aapke jawab ke mutabiq banega." },
+    { id: "symbol", label: "Agar nishaan chahiye to kaunsa?", type: "check", inline: true,
+      options: ["Gaaye", "Bhains", "Doodh ka qatra", "Bottle / doodh ka bartan", "Hari ghaas / khet", "Gaon ka manzar"],
+      other: "Kuch aur ho to likhein" },
+    { id: "colorsYes", label: "Kaunse rang pasand hain?", type: "check", inline: true, colors: true,
+      other: "Koi aur rang ya note" },
+    { id: "colorsNo", label: "Koi rang jo bilkul nahi chahiye?", type: "check", inline: true, colors: true },
+    { id: "likes", label: "Koi aise logos jo aapko pasand hain (doodh ke ya kisi bhi brand ke)? Unmein kya pasand aaya?", type: "textarea",
+      placeholder: "Brand ka naam likhein aur kya achha laga...",
+      note: "Un logos ke screenshots WhatsApp par message bhejne ke baad usi chat mein alag se bhej dein. Koi naapasand logo ho to wo bhi bhej dein." },
+    { id: "competition", label: "Aapke ilaqe mein doodh ke kaunse brands hain jin se aap alag dikhna chahte hain?", type: "textarea" }
+  ]},
+  { title: "Istemal aur delivery", qs: [
+    { id: "usage", label: "Logo kahan kahan lagega?", type: "check", inline: true,
+      options: ["Packing", "Dukaan ka board", "Delivery gaari", "Staff ki uniform", "Social media"],
+      other: "Kahin aur" },
+    { id: "printer", label: "Kya file kisi printer ya packaging wale ko deni hai?", type: "radio", inline: true,
+      options: ["Haan", "Nahi", "Abhi pata nahi"],
+      other: "Agar haan, to unki file ki requirement likhein" },
+    { id: "concepts", label: "Shuru mein kitne designs dekhna chahte hain?", type: "radio", inline: true,
+      options: ["2", "3", "4"] },
+    { id: "deadline", label: "Logo kab tak chahiye?", type: "text", placeholder: "Jaise: 20 November tak" },
+    { id: "decider", label: "Design ka final faisla kaun karega?", type: "radio",
+      options: ["Main khud", "Main aur mera partner"], other: "Koi aur ho to likhein" }
+  ]}
+];
+
+/* ===== Render ===== */
+const form = document.getElementById("brief");
+let qNo = 0;
+const allQs = [];
+
+function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+
+SECTIONS.forEach((sec, si) => {
+  const block = document.createElement("section");
+  block.className = "block";
+  block.innerHTML = `<div class="block-head"><span class="no">0${si + 1}</span><h2>${esc(sec.title)}</h2></div>`;
+
+  sec.qs.forEach(q => {
+    qNo++;
+    q.no = qNo;
+    allQs.push(q);
+    const card = document.createElement("div");
+    card.className = "card";
+    card.dataset.q = q.id;
+
+    let body = "";
+    if (q.type === "text") {
+      body = `<input type="text" name="${q.id}" id="${q.id}" placeholder="${esc(q.placeholder || "Yahan likhein")}">`;
+    } else if (q.type === "textarea") {
+      body = `<textarea name="${q.id}" id="${q.id}" placeholder="${esc(q.placeholder || "Yahan likhein")}"></textarea>`;
+    } else {
+      const inputType = q.type === "radio" ? "radio" : "checkbox";
+      const opts = q.colors ? COLORS.map(([t, hex]) => ({ t, hex })) : q.options.map(o => typeof o === "string" ? { t: o } : o);
+      const cls = q.visual ? "choices visual" : (q.inline ? "choices inline" : "choices");
+      body = `<div class="${cls}" role="${q.type === "radio" ? "radiogroup" : "group"}">` + opts.map((o, i) => `
+        <label class="choice">
+          <input type="${inputType}" name="${q.id}" value="${esc(o.t)}" id="${q.id}_${i}">
+          <span class="box">
+            ${q.visual ? o.svg : (o.hex ? `<span class="swatch" style="background:${o.hex}"></span>` : `<span class="tick">${TICK}</span>`)}
+            <span class="opt-text">${esc(o.t)}${o.d ? `<small>${esc(o.d)}</small>` : ""}</span>
+          </span>
+        </label>`).join("") + `</div>`;
+    }
+    if (q.other) body += `<div class="other"><input type="text" name="${q.id}__other" placeholder="${esc(q.other)}"></div>`;
+
+    card.innerHTML = `
+      <div class="q-label" id="lbl_${q.id}"><span class="qn">${q.no}.</span><span>${esc(q.label)}</span></div>
+      ${q.help ? `<p class="q-help">${esc(q.help)}</p>` : ""}
+      ${q.note ? `<p class="q-help note">${esc(q.note)}</p>` : ""}
+      <div class="q-body">${body}</div>`;
+    block.appendChild(card);
+  });
+  form.appendChild(block);
+});
+
+/* Radio: dobara tap karne se jawab hat jaye */
+form.querySelectorAll('input[type=radio]').forEach(r => {
+  r.closest("label").addEventListener("pointerdown", () => { r.dataset.was = r.checked ? "1" : ""; });
+  r.addEventListener("click", () => {
+    const was = r.dataset.was === "1";
+    r.dataset.was = "";
+    if (was) { r.checked = false; onChange(); }
+  });
+});
+
+/* ===== State ===== */
+function answerOf(q) {
+  const parts = [];
+  if (q.type === "text" || q.type === "textarea") {
+    const v = form.querySelector(`[name="${q.id}"]`).value.trim();
+    if (v) parts.push(v);
+  } else {
+    const picked = [...form.querySelectorAll(`input[name="${q.id}"]:checked`)].map(i => i.value);
+    if (picked.length) parts.push(picked.join(", "));
+  }
+  const o = form.querySelector(`[name="${q.id}__other"]`);
+  if (o && o.value.trim()) parts.push(o.value.trim());
+  return parts.join(" | ");
+}
+
+const STORE_KEY = "khaloos-brief-v1";
+function save() {
+  const data = { _name: document.getElementById("clientName").value };
+  form.querySelectorAll("input, textarea").forEach(el => {
+    if (el.type === "radio" || el.type === "checkbox") { if (el.checked) data[el.id] = true; }
+    else data[el.name] = el.value;
+  });
+  try { localStorage.setItem(STORE_KEY, JSON.stringify(data)); } catch (e) {}
+}
+function load() {
+  let data = null;
+  try { data = JSON.parse(localStorage.getItem(STORE_KEY) || "null"); } catch (e) {}
+  if (!data) return;
+  document.getElementById("clientName").value = data._name || "";
+  form.querySelectorAll("input, textarea").forEach(el => {
+    if (el.type === "radio" || el.type === "checkbox") el.checked = !!data[el.id];
+    else if (data[el.name] != null) el.value = data[el.name];
+  });
+}
+
+function onChange() {
+  let done = 0;
+  allQs.forEach(q => {
+    const has = !!answerOf(q);
+    if (has) done++;
+    form.querySelector(`.card[data-q="${q.id}"]`).classList.toggle("done", has);
+  });
+  document.getElementById("barFill").style.width = (done / allQs.length * 100) + "%";
+  document.getElementById("progText").textContent = `${done} / ${allQs.length}`;
+  save();
+}
+form.addEventListener("input", onChange);
+form.addEventListener("change", onChange);
+document.getElementById("clientName").addEventListener("input", save);
+
+/* ===== Message ===== */
+function buildMessage() {
+  const name = document.getElementById("clientName").value.trim();
+  const lines = ["*Khaloos Milk — Logo Brief*"];
+  if (name) lines.push("Naam: " + name);
+  SECTIONS.forEach(sec => {
+    lines.push("", "*" + sec.title.toUpperCase() + "*");
+    sec.qs.forEach(q => {
+      const a = answerOf(q);
+      lines.push(`*${q.no}. ${q.label}*`, a ? "➜ " + a : "➜ —");
+    });
+  });
+  return lines.join("\n");
+}
+
+function countAnswered() { return allQs.filter(q => answerOf(q)).length; }
+
+const toast = document.getElementById("toast");
+let toastT;
+function showToast(msg) {
+  toast.textContent = msg;
+  toast.classList.add("show");
+  clearTimeout(toastT);
+  toastT = setTimeout(() => toast.classList.remove("show"), 2600);
+}
+
+document.getElementById("waBtn").addEventListener("click", () => {
+  if (countAnswered() === 0) { showToast("Pehle kam az kam kuch sawalon ke jawab de dein"); return; }
+  const text = encodeURIComponent(buildMessage());
+  const num = WA_NUMBER.replace(/\D/g, "");
+  const url = num ? `https://wa.me/${num}?text=${text}` : `https://wa.me/?text=${text}`;
+  window.location.href = url;
+});
+
+document.getElementById("copyBtn").addEventListener("click", async () => {
+  const msg = buildMessage();
+  try {
+    await navigator.clipboard.writeText(msg);
+    showToast("Jawab copy ho gaye. Ab WhatsApp par paste kar dein.");
+  } catch (e) {
+    const ta = document.createElement("textarea");
+    ta.value = msg; ta.style.position = "fixed"; ta.style.opacity = "0";
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand("copy"); showToast("Jawab copy ho gaye. Ab WhatsApp par paste kar dein."); }
+    catch (err) { showToast("Copy nahi ho saka"); }
+    ta.remove();
+  }
+});
+
+load();
+onChange();
+</script>
+</body>
+</html>
